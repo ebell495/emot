@@ -1,6 +1,6 @@
 project: emot
-target: fuzz
+target: emoji-parse-fuzz
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/emoji-parse-fuzz.py
       libfuzzer: true 

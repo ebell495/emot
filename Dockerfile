@@ -3,4 +3,4 @@ RUN pip3 install atheris
 
 COPY . /EMOT
 WORKDIR /EMOT
-RUN python3 -m pip install . && chmod +x fuzz/fuzz.py
+RUN python3 -m pip install . && chmod +x fuzz/emoji-parse-fuzz.py
